@@ -27,10 +27,12 @@ ecommerce-playwright-pom-framework-typescript
 │   ├── ProductPage.ts
 │   ├── CheckoutPage.ts
 │   └── LoginPage.ts
+│   ├── AccountPage.ts
+│   └── AffilliatePage.ts
 │
 ├── tests
-│   ├── TC01_NavigateToLaptops.spec.ts
-│   ├── TC02_SelectProduct.spec.ts
+│   ├── TC01_LaunchApplication.spec.ts
+│   ├── TC02_Login.spec.ts
 │   ├── TC03_AddToCart.spec.ts
 │   ├── TC04_CompletePurchase.spec.ts
 │   ├── TC05_AddToWishlist.spec.ts
