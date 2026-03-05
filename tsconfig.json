@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true, //catches more bugs
+    "esModuleInterop": true, //smoother imports
+    "resolveJsonModule": true, //allows importing JSON test data
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["pages", "tests", "utils", "playwright.config.ts"]
+}
